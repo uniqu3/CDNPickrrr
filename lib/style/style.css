@@ -1,0 +1,84 @@
+#source pre {
+	background: #333;
+	color: #79aa1f;
+	padding: 10px 15px;;
+	border-left: 10px solid #ddd;
+	border-radius: 6px;
+	margin-bottom: 20px;
+}
+ul#resources {
+	margin: 0;
+	padding: 0;
+}
+#resources li {
+	float: left;
+	border-radius: 6px;
+	background: #f0f0f0;
+	border: 1px solid #ddd;
+	margin: 0 15px 15px 0;
+	padding: 10px 10px 35px 10px;
+	list-style: none;
+	width: 273px;
+	height: 140px;
+	position: relative;
+}
+#resources h3 {
+	margin: 0;
+}
+#resources h3 a {
+	font-size: 20px;
+	color: #333;
+	text-shadow: 1px 1px 0 #fff;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+#resources .version {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+}
+#resources input[type="checkbox"] {
+	display: none;
+}
+.field.switch {
+	position: absolute;
+	bottom: 10px;
+	left: 40%;
+}
+.cb-enable, .cb-disable, .cb-enable span, .cb-disable span {
+	display: block;
+	float: left;
+}
+.cb-enable span, .cb-disable span {
+	line-height: 26px;
+	display: block;
+	font-weight: bold;
+}
+.cb-enable span {
+	background: #ccc;
+	padding: 0 10px;
+	border-radius: 4px 0 0 4px;
+	border: 1px solid #666;
+	box-shadow: inset 1px 1px 1px 0px #aaa;
+	border-right: none;
+}
+.cb-enable.selected span {
+	background: #79aa1f;
+	color: #fff;
+}
+.cb-disable span {
+	background: #ccc;
+	padding: 0 10px;
+	border-radius: 0 4px 4px 0;
+	border: 1px solid #666;
+	box-shadow: inset 1px 1px 1px 0px #aaa;
+	border-left: none;
+}
+.cb-disable.selected span {
+	background: #a40111;
+	color: #fff;
+}
+.switch label {
+	cursor: pointer;
+}

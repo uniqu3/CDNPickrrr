@@ -1,0 +1,182 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"result": [
+		{
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+			"name": "jQuery",
+			"project_url": "http://jquery.com",
+			"description": "jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.",
+			"version": "1.7.1"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js",
+			"name": "jQuery UI",
+			"project_url": "http://jqueryui.com",
+			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+			"version": "1.8.16"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/i18n/jquery-ui-i18n.js",
+			"name": "jQuery UI il8n",
+			"project_url": "http://jqueryui.com",
+			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+			"version": "1.8.16"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js",
+			"name": "jQuery",
+			"project_url": "http://jquery.com",
+			"description": "jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.",
+			"version": "1.7.1"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/additional-methods.js",
+			"name": "jQuery UI",
+			"project_url": "http://jqueryui.com",
+			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+			"version": "1.8.16"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js",
+			"name": "jQuery Validate",
+			"project_url": "http://bassistance.de/jquery-plugins/jquery-plugin-validation/",
+			"description": "This jQuery plugin makes simple clientside form validation trivial, while offering lots of option for customization.",
+			"version": "1.9"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/additional-methods.min.js",
+			"name": "jQuery Validate - Additional",
+			"project_url": "http://bassistance.de/jquery-plugins/jquery-plugin-validation/",
+			"description": "This jQuery plugin makes simple clientside form validation trivial, while offering lots of option for customization.",
+			"version": "1.9"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.mobile/1.0.1/jquery.mobile-1.0.1.min.js",
+			"name": "jQuery Mobile",
+			"project_url": "http://jquerymobile.com/",
+			"description": "A unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation.",
+			"version": "1.0.1"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.0/jquery.dataTables.min.js",
+			"name": "jQuery DataTables",
+			"project_url": "http://datatables.net/",
+			"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+			"version": "1.9"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js",
+			"name": "jQuery Templates",
+			"project_url": "http://api.jquery.com/category/plugins/templates/",
+			"description": "A template contains markup with binding expressions. The template is applied to data objects or arrays, and rendered into the HTML DOM.",
+			"version": "Beta 1"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmplPlus.js",
+			"name": "jQuery Templates - Plus",
+			"project_url": "http://api.jquery.com/category/plugins/templates/",
+			"description": "A template contains markup with binding expressions. The template is applied to data objects or arrays, and rendered into the HTML DOM.",
+			"version": "Beta 1"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.all.min.js",
+			"name": "jQuery Cycle - All",
+			"project_url": "http://jquery.malsup.com/cycle/",
+			"description": "The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more. It also supports, but does not require, the Easing Plugin.",
+			"version": "2.99"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.min.js",
+			"name": "jQuery Cycle",
+			"project_url": "http://jquery.malsup.com/cycle/",
+			"description": "The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more. It also supports, but does not require, the Easing Plugin.",
+			"version": "2.99"
+		}, {
+			"provider": "Microsoft",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.lite.min.js",
+			"name": "jQuery Cycle - Min",
+			"project_url": "http://jquery.malsup.com/cycle/",
+			"description": "The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more. It also supports, but does not require, the Easing Plugin.",
+			"version": "2.99"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js",
+			"name": "Chrome Frame",
+			"project_url": "http://code.google.com/intl/en-US/chrome/chromeframe/",
+			"description": "Google Chrome Frame is an open source plug-in that seamlessly brings Google Chrome's open web technologies and speedy JavaScript engine to Internet Explorer.",
+			"version": "1.0.2"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/dojo.xd.js",
+			"name": "Dojo",
+			"project_url": "http://dojotoolkit.org/",
+			"description": "Dojo saves you time and scales with your development process, using web standards as its platform. It’s the toolkit experienced developers turn to for building high quality desktop and mobile web applications.",
+			"version": "1.7.2"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js",
+			"name": "Ext Core",
+			"project_url": "http://www.sencha.com/products/extcore",
+			"description": "Ext Core is a cross-browser JavaScript library for building dynamic web pages. Ext Core provides basic cross-browser abstractions for DOM querying, element selection and more.",
+			"version": "3.1.0"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js",
+			"name": "MooTools",
+			"project_url": "http://mootools.net/",
+			"description": "MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API.",
+			"version": "1.4.5"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js",
+			"name": "Prototype",
+			"project_url": "http://prototypejs.org/",
+			"description": "Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.",
+			"version": "1.7"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js",
+			"name": "script.alculo.us",
+			"project_url": "http://script.aculo.us/",
+			"description": "script.aculo.us provides you with easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.",
+			"version": "1.9.0"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js",
+			"name": "SWFObject",
+			"project_url": "http://code.google.com/p/swfobject/",
+			"description": "SWFObject is an easy-to-use and standards-friendly method to embed Flash content, which utilizes one small JavaScript file.",
+			"version": "2.2"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/yui/3.3.0/build/yui/yui-min.js",
+			"name": "YUI Library",
+			"project_url": "http://developer.yahoo.com/yui/",
+			"description": "YUI is a free, open source JavaScript and CSS framework for building richly interactive web applications.",
+			"version": "3.30"
+		}, {
+			"provider": "Google",
+			"cdn_url": "//ajax.googleapis.com/ajax/libs/webfont/1.0.26/webfont.js",
+			"name": "WebFont Loader",
+			"project_url": "https://developers.google.com/webfonts/docs/webfont_loader",
+			"description": "The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Web Fonts API provides. The WebFont Loader also lets you use multiple web-font providers.",
+			"version": "1.0.26"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/ace/0.2.0/ace.js",
+			"name": "Ace",
+			"project_url": "http://ace.ajax.org/",
+			"description": "Ace is a standalone code editor written in JavaScript.",
+			"version": "0.2.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.0/backbone.localStorage-min.js",
+			"name": "Backbone localStorage Adapter",
+			"project_url": "https://github.com/jeromegn/Backbone.localStorage",
+			"description": "Quite simply a localStorage adapter for Backbone. It's a drop-in replacement for Backbone.Sync() to handle saving to a localStorage database.",
+			"version": "1.0"
+		}
+	]
+}

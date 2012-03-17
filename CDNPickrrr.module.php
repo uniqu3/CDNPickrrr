@@ -112,7 +112,7 @@ class CDNPickrrr extends CMSModule {
         return $header;
     }
     
-    public function LatyLoadAdmin() {
+    public function LazyLoadAdmin() {
         return true;
     }    
 

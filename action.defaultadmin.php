@@ -6,7 +6,7 @@
 #-------------------------------------------------------------------------
 # CMS - CMS Made Simple is (c) 2010 by Ted Kulp (wishy@cmsmadesimple.org)
 # This project's homepage is: http://www.cmsmadesimple.org
-# The module's homepage is: http://dev.cmsmadesimple.org/projects/skeleton/
+# The module's homepage is: https://github.com/uniqu3/CDNPickrrr & http://dev.cmsmadesimple.org/projects/cdnpickrrr
 #
 #-------------------------------------------------------------------------
 #

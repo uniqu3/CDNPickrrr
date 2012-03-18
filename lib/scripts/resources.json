@@ -15,14 +15,14 @@
 			"name": "jQuery UI",
 			"project_url": "http://jqueryui.com",
 			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
-			"version": "1.8.16"
+			"version": "1.8.18"
 		}, {
 			"provider": "Google",
 			"cdn_url": "//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/i18n/jquery-ui-i18n.js",
 			"name": "jQuery UI il8n",
 			"project_url": "http://jqueryui.com",
 			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
-			"version": "1.8.16"
+			"version": "1.8.18"
 		}, {
 			"provider": "Microsoft",
 			"cdn_url": "//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js",
@@ -32,11 +32,11 @@
 			"version": "1.7.1"
 		}, {
 			"provider": "Microsoft",
-			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/additional-methods.js",
+			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.18/jquery-ui.min.js",
 			"name": "jQuery UI",
 			"project_url": "http://jqueryui.com",
 			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
-			"version": "1.8.16"
+			"version": "1.8.18"
 		}, {
 			"provider": "Microsoft",
 			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js",
@@ -177,6 +177,111 @@
 			"project_url": "https://github.com/jeromegn/Backbone.localStorage",
 			"description": "Quite simply a localStorage adapter for Backbone. It's a drop-in replacement for Backbone.Sync() to handle saving to a localStorage database.",
 			"version": "1.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.1/backbone-min.js",
+			"name": "Backbone.js",
+			"project_url": "http://documentcloud.github.com/backbone/",
+			"description": "Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+			"version": "0.9.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/camanjs/3.1.1/caman.full.min.js",
+			"name": "Caman.js",
+			"project_url": "http://camanjs.com/",
+			"description": "The main focus of CamanJS is manipulating images using the HTML5 canvas and Javascript. It's a combination of a simple-to-use interface with advanced and efficient image/canvas editing techniques.",
+			"version": "3.1.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.2.0/coffee-script.min.js",
+			"name": "CoffeScript",
+			"project_url": "http://jashkenas.github.com/coffee-script/",
+			"description": "CoffeeScript is a little language that compiles into JavaScript. Underneath all those awkward braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.",
+			"version": "1.2.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/css3finalize/2.1/jquery.css3finalize.min.js",
+			"name": "CSS 3 Finalize",
+			"project_url": "http://jashkenas.github.com/coffee-script/",
+			"description": "With this plugin you can write CSS without the vendor prefixes. The plugin takes care of it and will automatically add vendor prefixes. This will save time and the pain of rewriting same attribute many times.",
+			"version": "2.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/css3pie/1.0beta5/PIE.js",
+			"name": "CSS3 Pie",
+			"project_url": "http://css3pie.com/",
+			"description": "PIE makes Internet Explorer 6-9 capable of rendering several of the most useful CSS3 decoration features.",
+			"version": "1.0 beta5"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/cufon/1.09i/cufon-yui.js",
+			"name": "Cufon",
+			"project_url": "http://cufon.shoqolate.com/generate/",
+			"description": "Cufon - Fonts for the people",
+			"version": "1.09i"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/d3/2.7.4/d3.min.js",
+			"name": "D3",
+			"project_url": "http://mbostock.github.com/d3/",
+			"description": "D3 allows you to bind arbitrary data to a Document Object Model (DOM), and then apply data-driven transformations to the document. As a trivial example, you can use D3 to generate a basic HTML table from an array of numbers. Or, use the same data to create an interactive SVG bar chart with smooth transitions and interaction.",
+			"version": "2.7.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js",
+			"name": "Datejs",
+			"project_url": "http://www.datejs.com/",
+			"description": "Comprehensive, yet simple, stealthy and fast. Datejs has passed all trials and is ready to strike. Datejs doesn’t just parse strings, it slices them cleanly in two.",
+			"version": "1.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/davis.js/0.7.0/davis.min.js",
+			"name": "Davis",
+			"project_url": "http://davisjs.com/",
+			"description": "Davis.js is a small JavaScript library using HTML5 history.pushState that allows simple Sinatra style routing for your JavaScript apps.",
+			"version": "1.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/dd_belatedpng/0.0.8/dd_belatedpng.min.js",
+			"name": "DD_belatedPNG",
+			"project_url": "http://www.dillerdesign.com/experiment/DD_belatedPNG/",
+			"description": "This is a Javascript library that sandwiches PNG image support into IE6 without much fuss.",
+			"version": "0.0.8"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/documentup/0.1.1/documentup.min.js",
+			"name": "DocumentUp",
+			"project_url": "http://documentup.com/",
+			"description": "Automatically generated documentation sites for your markdown files! There are various ways of getting your documentation going",
+			"version": "0.1.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "http://cdnjs.cloudflare.com/ajax/libs/ember.js/0.9.4/ember-0.9.4.min.js",
+			"name": "Ember",
+			"project_url": "http://emberjs.com/",
+			"description": "Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.",
+			"version": "0.9.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "http://cdnjs.cloudflare.com/ajax/libs/es5-shim/1.2.4/es5-shim.min.js",
+			"name": "es5-shim",
+			"project_url": "https://github.com/kriskowal/es5-shim",
+			"description": "Provides compatibility shims so that legacy JavaScript engines behave as closely as possible to ES5.",
+			"version": "1.2.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.0.4/jquery.fancybox.pack.js",
+			"name": "fancyBox",
+			"project_url": "http://fancyapps.com/fancybox/",
+			"description": "fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built at the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize.",
+			"version": "2.0.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "http://cdnjs.cloudflare.com/ajax/libs/flexie/1.0.0/flexie.min.js",
+			"name": "Flexie",
+			"project_url": "http://flexiejs.com/",
+			"description": "Cross-browser support for the Flexible Box Mode",
+			"version": "1.0.0"
 		}
 	]
 }

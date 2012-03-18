@@ -46,7 +46,8 @@ class CDNPickrrr extends CMSModule {
     }
 
     function GetHelp() {
-        return $this->Lang('help');
+        $this->smarty->assign('help_text', $this->Lang('help_text'));
+        return $this->ProcessTemplate('help.tpl');
     }
 
     function GetAuthor() {
@@ -78,7 +79,7 @@ class CDNPickrrr extends CMSModule {
     }
 
     public function CheckAccess() {
-         return $this->CheckPermission('Use CDNPickrrr') || $this->CheckPermission('Modify Site Preferences');
+         return $this->CheckPermission('Use CDNPickrrr') || $this->CheckPermission('Modify Templates');
     }    
 
     function VisibleToAdminUser() {
@@ -107,6 +108,7 @@ class CDNPickrrr extends CMSModule {
     public function GetHeaderHTML() {
         $header = '
         <link rel="stylesheet" type="text/css" href="' . $this->GetModuleURLPath() . '/lib/style/style.css" />
+        <script src="' . $this->GetModuleURLPath() . '/lib/scripts/ZeroClipboard.js" type="text/javascript" charset="utf-8"></script>
         <script src="' . $this->GetModuleURLPath() . '/lib/scripts/functions.js" type="text/javascript" charset="utf-8"></script>
         ';        
         return $header;

@@ -32,12 +32,16 @@ if (!$this->CheckAccess()) {
     return;
 }
 
+$admintheme = cmsms()->get_variable('admintheme');
 $resources = file_get_contents(dirname(__FILE__) . '/lib/scripts/resources.json');
 $items     = json_decode($resources);
 
+$smarty->assign('admin_description', $this->Lang('admin_description'));
 $smarty->assign('items', $items);
 $smarty->assign('provider', $this->Lang('provider'));
 $smarty->assign('on', $this->Lang('on'));
 $smarty->assign('off', $this->Lang('off'));
+$smarty->assign('copied', $this->Lang('copied_to_clipboard'));
+$smarty->assign('copy_image', $admintheme->DisplayImage('icons/system/copy.gif', $this->Lang('copy_to_clipboard')));
 echo $this->ProcessTemplate('adminpanel.tpl');
 ?>

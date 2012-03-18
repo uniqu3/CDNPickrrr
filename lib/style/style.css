@@ -7,7 +7,7 @@
 	margin-bottom: 20px;
 }
 ul#resources {
-	margin: 0;
+	margin: 15px 0 0 0;
 	padding: 0;
 }
 #resources li {
@@ -19,7 +19,7 @@ ul#resources {
 	padding: 10px 10px 35px 10px;
 	list-style: none;
 	width: 273px;
-	height: 140px;
+	height: 150px;
 	position: relative;
 }
 #resources h3 {
@@ -36,7 +36,13 @@ ul#resources {
 #resources .version {
 	display: block;
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+#resources .url {
+	display: none;
 }
 #resources input[type="checkbox"] {
 	display: none;

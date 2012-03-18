@@ -38,6 +38,20 @@
 			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
 			"version": "1.8.18"
 		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+			"name": "jQuery",
+			"project_url": "http://jquery.com",
+			"description": "jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.",
+			"version": "1.7.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js",
+			"name": "jQuery UI",
+			"project_url": "http://jqueryui.com",
+			"description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+			"version": "1.8.16"
+		}, {
 			"provider": "Microsoft",
 			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js",
 			"name": "jQuery Validate",
@@ -87,6 +101,13 @@
 			"description": "The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more. It also supports, but does not require, the Easing Plugin.",
 			"version": "2.99"
 		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jquery.cycle/2.99/jquery.cycle.all.min.js",
+			"name": "jQuery Cycle - All",
+			"project_url": "http://jquery.malsup.com/cycle/",
+			"description": "The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more. It also supports, but does not require, the Easing Plugin.",
+			"version": "2.99"
+		}, {
 			"provider": "Microsoft",
 			"cdn_url": "//ajax.aspnetcdn.com/ajax/jquery.cycle/2.99/jquery.cycle.min.js",
 			"name": "jQuery Cycle",
@@ -129,8 +150,22 @@
 			"description": "MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API.",
 			"version": "1.4.5"
 		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/mootools/1.3.2/mootools-yui-compressed.js",
+			"name": "MooTools",
+			"project_url": "http://mootools.net/",
+			"description": "MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API.",
+			"version": "1.3.2"
+		},{
 			"provider": "Google",
 			"cdn_url": "//ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js",
+			"name": "Prototype",
+			"project_url": "http://prototypejs.org/",
+			"description": "Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.",
+			"version": "1.7"
+		},{
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/prototype/1.7.0.0/prototype.js",
 			"name": "Prototype",
 			"project_url": "http://prototypejs.org/",
 			"description": "Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.",
@@ -143,8 +178,22 @@
 			"description": "script.aculo.us provides you with easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.",
 			"version": "1.9.0"
 		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js",
+			"name": "script.alculo.us",
+			"project_url": "http://script.aculo.us/",
+			"description": "script.aculo.us provides you with easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.",
+			"version": "1.8.3"
+		}, {
 			"provider": "Google",
 			"cdn_url": "//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js",
+			"name": "SWFObject",
+			"project_url": "http://code.google.com/p/swfobject/",
+			"description": "SWFObject is an easy-to-use and standards-friendly method to embed Flash content, which utilizes one small JavaScript file.",
+			"version": "2.2"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js",
 			"name": "SWFObject",
 			"project_url": "http://code.google.com/p/swfobject/",
 			"description": "SWFObject is an easy-to-use and standards-friendly method to embed Flash content, which utilizes one small JavaScript file.",
@@ -155,7 +204,14 @@
 			"name": "YUI Library",
 			"project_url": "http://developer.yahoo.com/yui/",
 			"description": "YUI is a free, open source JavaScript and CSS framework for building richly interactive web applications.",
-			"version": "3.30"
+			"version": "3.3.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/yui/3.3.0/yui-min.js",
+			"name": "YUI Library",
+			"project_url": "http://developer.yahoo.com/yui/",
+			"description": "YUI is a free, open source JavaScript and CSS framework for building richly interactive web applications.",
+			"version": "3.3.0"
 		}, {
 			"provider": "Google",
 			"cdn_url": "//ajax.googleapis.com/ajax/libs/webfont/1.0.26/webfont.js",
@@ -163,6 +219,13 @@
 			"project_url": "https://developers.google.com/webfonts/docs/webfont_loader",
 			"description": "The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Web Fonts API provides. The WebFont Loader also lets you use multiple web-font providers.",
 			"version": "1.0.26"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/webfont/1.0.19/webfont.js",
+			"name": "WebFont Loader",
+			"project_url": "https://developers.google.com/webfonts/docs/webfont_loader",
+			"description": "The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Web Fonts API provides. The WebFont Loader also lets you use multiple web-font providers.",
+			"version": "1.0.19"
 		}, {
 			"provider": "cdnjs",
 			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/ace/0.2.0/ace.js",
@@ -345,6 +408,286 @@
 			"project_url": "http://icanhazjs.com/",
 			"description": "Simple & powerful client-side templating",
 			"version": "0.9"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/javascript-state-machine/2.0.0/state-machine.min.js",
+			"name": "Javascript Finite State Machine",
+			"project_url": "https://github.com/jakesgordon/javascript-state-machine",
+			"description": "This standalone javascript micro-framework provides a finite state machine for your pleasure.",
+			"version": "2.0.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js",
+			"name": "jQuery Easing Plugin",
+			"project_url": "http://gsgd.co.uk/sandbox/jquery/easing/",
+			"description": "A jQuery plugin from GSGD to give advanced easing options.",
+			"version": "1.3"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js",
+			"name": "jQuery jQuery throttle",
+			"project_url": "https://github.com/cowboy/jquery-throttle-debounce",
+			"description": "jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways. Passing a delay and callback to $.throttle returns a new function that will execute no more than once every delay milliseconds.",
+			"version": "1.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.6/jquery.tools.min.js",
+			"name": "jQuery Tools",
+			"project_url": "http://jquerytools.org/",
+			"description": "jQuery Tools is a collection of the most important user interface components for the web. These are tabs, accordions, tooltips, overlays, exposing effects and scrollables.",
+			"version": "1.2.6"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/js-signals/0.6.1/js-signals.min.js",
+			"name": "js signals",
+			"project_url": "http://millermedeiros.github.com/js-signals/",
+			"description": "A Signal is similar to an Event Emitter/Dispatcher or a Pub/Sub system, the main difference is that each event type has it's own controller and doesn't rely on strings to broadcast/subscribe to events.",
+			"version": "0.6.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js",
+			"name": "JSON js",
+			"project_url": "https://github.com/douglascrockford/JSON-js",
+			"description": "This file creates a JSON property in the global object, if there isn't already one, setting its value to an object containing a stringify method and a parse method.",
+			"version": "20110223"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js",
+			"name": "JSXGraph",
+			"project_url": "http://jsxgraph.uni-bayreuth.de/wp/",
+			"description": "JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.",
+			"version": "0.93"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/knockout/2.0.0/knockout-min.js",
+			"name": "Knockout",
+			"project_url": "http://knockoutjs.com/",
+			"description": "Easily associate DOM elements with model data using a concise, readable syntax",
+			"version": "2.0.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/labjs/2.0.3/LAB.min.js",
+			"name": "LABjs",
+			"project_url": "http://labjs.com/",
+			"description": "LABjs (Loading And Blocking JavaScript) is an open-source (MIT license) project supported by Getify Solutions.",
+			"version": "2.0.3"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/less.js/1.1.5/less-1.1.5.min.js",
+			"name": "LESS",
+			"project_url": "http://lesscss.org/",
+			"description": "LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (Chrome, Safari, Firefox) and server-side, with Node.js and Rhino.",
+			"version": "1.1.5"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/masonry/2.1.0/jquery.masonry.min.js",
+			"name": "jQuery Masonry",
+			"project_url": "http://masonry.desandro.com/",
+			"description": "A dynamic layout plugin for jQuery. The flip-side of CSS floats",
+			"version": "2.1.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js",
+			"name": "Modernizr",
+			"project_url": "http://www.modernizr.com/",
+			"description": "Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.",
+			"version": "2.5.3"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js",
+			"name": "Mustache",
+			"project_url": "https://github.com/janl/mustache.js",
+			"description": "Mustache is a logic-less template syntax. It can be used for HTML, config files, source code - anything. It works by expanding tags in a template using values provided in a hash or object.",
+			"version": "0.3.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/ninjaui/1.0.1/jquery.ninjaui.min.js",
+			"name": "Ninja UI",
+			"project_url": "http://ninjaui.com/",
+			"description": "Elegant theme, capable of exactly matching the look and feel of your site.",
+			"version": "1.0.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/noisy/1.1/jquery.noisy.min.js",
+			"name": "Noisy",
+			"project_url": "http://rappdaniel.com/noisy/",
+			"description": "Noisy is a jQuery plugin that adds random noise to a given element.",
+			"version": "1.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.0.0/ocanvas.min.js",
+			"name": "oCanvas",
+			"project_url": "http://ocanvas.org/",
+			"description": "oCanvas can be used for a lot of things, one of them being charts. This is an example of how a pie chart can be generated for the percentages defined in the variable data in the beginning. Moving over the pieces will make the piece larger and clicking the pieces will make them animate.",
+			"version": "2.0.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/pagedown/1.0/Markdown.Converter.js",
+			"name": "PageDown",
+			"project_url": "http://code.google.com/p/pagedown/wiki/PageDown",
+			"description": "PageDown is the JavaScript Markdown previewer used on Stack Overflow and the rest of the Stack Exchange network. It includes a Markdown-to-HTML converter and an in-page Markdown editor with live preview.",
+			"version": "1.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js",
+			"name": "prettify",
+			"project_url": "http://code.google.com/p/google-code-prettify/",
+			"description": "A Javascript module and CSS file that allows syntax highlighting of source code snippets in an html page.",
+			"version": "188.0.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/processing.js/1.3.6/processing-api.min.js",
+			"name": "Processing",
+			"project_url": "http://processingjs.org/",
+			"description": "Processing.js is the sister project of the popular Processing visual programming language, designed for the web.",
+			"version": "1.3.6"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/pubnub/3.1.2/pubnub.min.js",
+			"name": "PubNub",
+			"project_url": "http://www.pubnub.com/",
+			"description": "PubNub is a blazingly fast cloud-hosted messaging service for building real-time applications for web and mobile apps.",
+			"version": "3.1.2"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/raphael/2.0.1/raphael-min.js",
+			"name": "Raphaël",
+			"project_url": "http://raphaeljs.com/",
+			"description": "Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web.",
+			"version": "2.0.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/require.js/1.0.5/require.min.js",
+			"name": "RequireJS",
+			"project_url": "http://requirejs.org/",
+			"description": "RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node.",
+			"version": "1.0.5"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.0/sammy.min.js",
+			"name": "Sammy.js",
+			"project_url": "http://sammyjs.org/",
+			"description": "Sammy is built on a system of plugins and adapters . Only include the code you need. It's also easy to extract your own code into reusable plugins.",
+			"version": "0.7.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/script.js/1.3/script.min.js",
+			"name": "$script.js",
+			"project_url": "http://www.dustindiaz.com/scriptjs/",
+			"description": "An asynchronous JavaScript loader and dependency manager with an astonishingly impressive lightweight footprint of only 643 BYTES! (yes, you read that correctly).",
+			"version": "1.3"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js",
+			"name": "Selectivizr",
+			"project_url": "http://selectivizr.com/",
+			"description": "selectivizr is a JavaScript utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8. Simply include the script in your pages and selectivizr will do the rest.",
+			"version": "1.0.2"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/sizzle/1.4.4/sizzle.min.js",
+			"name": "Sizzle",
+			"project_url": "http://sizzlejs.com/",
+			"description": "A pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.",
+			"version": "1.4.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/socket.io/0.8.4/socket.io.min.js",
+			"name": "Socket.IO",
+			"project_url": "http://socket.io/",
+			"description": "Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms. It's care-free realtime 100% in JavaScript.",
+			"version": "0.8.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/stopcensorship.js/1.0/stopcensorship.js",
+			"name": "Stop Censorship",
+			"project_url": "https://github.com/dougmartin/Stop-Censorship",
+			"description": "Add to head or body of any page to automatically censor the content to protest censorship of the Internet.",
+			"version": "1.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/spinejs/0.0.4/spine.min.js",
+			"name": "Spine",
+			"project_url": "http://maccman.github.com/spine/",
+			"description": "Spine is a simple and lightweight framework, and doesn't consist of a vast amount of complex widgets to configure and theme.",
+			"version": "0.0.4"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/store/1.1.1/store.min.js",
+			"name": "Store",
+			"project_url": "https://github.com/marcuswestin/store.js",
+			"description": "localStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage, and userData behavior under the hood",
+			"version": "1.1.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/string_score/0.1.10/string_score.min.js",
+			"name": "string_score",
+			"project_url": "https://github.com/joshaven/string_score",
+			"description": "JavaScript string ranking 0 for no match upto 1 for perfect... \"String\".score(\"str\"); //=> 0.825",
+			"version": "0.1.10"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/tinyscrollbar/1.66/jquery.tinyscrollbar.min.js",
+			"name": "tinyscrollbar",
+			"project_url": "http://baijs.nl/tinyscrollbar/",
+			"description": "",
+			"version": "1.66"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.0.1/bootstrap.min.js",
+			"name": "Twitter Boostrap",
+			"project_url": "http://twitter.github.com/bootstrap/",
+			"description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+			"version": "2.0.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/twitterlib.js/0.9.0/twitterlib.min.js",
+			"name": "twitterlib",
+			"project_url": "https://github.com/remy/twitterlib/",
+			"description": "twitterlib.js allows you to run a number of common API calls to Twitter, set the options in a standard format, and pass a filtering search string if required.",
+			"version": "0.9.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.1/underscore-min.js",
+			"name": "Underscore.js",
+			"project_url": "http://documentcloud.github.com/underscore/",
+			"description": "Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux, and Backbone.js's suspenders.",
+			"version": "1.3.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/underscore.string/1.1.6/underscore.string.min.js",
+			"name": "Underscore.string",
+			"project_url": "http://edtsech.github.com/underscore.string/",
+			"description": "Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.",
+			"version": "1.1.6"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/waypoints/1.1/waypoints.min.js",
+			"name": "jQuery Waypoints",
+			"project_url": "http://imakewebthings.github.com/jquery-waypoints",
+			"description": "Waypoints is a small jQuery plugin that makes it easy to execute a function whenever you scroll to an element.",
+			"version": "1.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/yepnope/1.0.1/yepnope.min.js",
+			"name": "xui",
+			"project_url": "http://xuijs.com/",
+			"description": "a super micro tiny dom library for authoring html5 mobile web applications.",
+			"version": "2.0.0"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/yepnope/1.0.1/yepnope.min.js",
+			"name": "yepnope.js",
+			"project_url": "http://yepnopejs.com/",
+			"description": "yepnope is an asynchronous conditional resource loader that's super-fast, and allows you to load only the scripts that your users need.",
+			"version": "1.0.1"
+		}, {
+			"provider": "cdnjs",
+			"cdn_url": "//cdnjs.cloudflare.com/ajax/libs/zepto/0.8/zepto.min.js",
+			"name": "Zepto.js",
+			"project_url": "http://zeptojs.com/",
+			"description": "Zepto.js is a minimalist JavaScript framework for modern web browsers*, with a jQuery-compatible syntax.",
+			"version": "0.8"
 		}
 	]
 }

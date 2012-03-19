@@ -28,13 +28,13 @@
 if (!is_object(cmsms()))exit ;
 
 if (!$this->CheckAccess()) {
-    echo $this->ShowErrors($this->Lang('accessdenied', array('Use CDNPickrrr')));
+    echo $this->ShowErrors($this->Lang('accessdenied'));
     return;
 }
 
 $admintheme = cmsms()->get_variable('admintheme');
-$resources = file_get_contents(dirname(__FILE__) . '/lib/scripts/resources.json');
-$items     = json_decode($resources);
+$resources  = file_get_contents(dirname(__FILE__) . '/lib/scripts/resources.json');
+$items      = json_decode($resources);
 
 $smarty->assign('admin_description', $this->Lang('admin_description'));
 $smarty->assign('items', $items);

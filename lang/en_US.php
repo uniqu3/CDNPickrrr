@@ -8,6 +8,7 @@ $lang['really_uninstall'] = 'Are you sure you want to uninstall this module?';
 $lang['uninstalled'] = 'CDNPickrrr Module Uninstalled.';
 $lang['installed'] = 'Module version %s installed.';
 $lang['upgraded'] = 'CDNPickrrr Module upgraded to version %s.';
+$lang['accessdenied'] = 'Access denied, please check your permissions.';
 // Panel
 $lang['admin_description'] = '<h3>Copying single Library link</h3>
 <p>If you quickly want to copy a library link simply click on "copy" icon which will copy whole script tag to your clipboard.</p>

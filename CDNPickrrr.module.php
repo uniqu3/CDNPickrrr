@@ -95,7 +95,7 @@ class CDNPickrrr extends CMSModule {
     }
 
     function MaximumCMSVersion() {
-        return "1.10.3";
+        return "1.11.9";
     }
 
     public function SetParameters() {

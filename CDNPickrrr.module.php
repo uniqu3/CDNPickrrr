@@ -42,7 +42,7 @@ class CDNPickrrr extends CMSModule {
     }
 
     function GetVersion() {
-        return '0.1';
+        return '0.2';
     }
 
     function GetHelp() {

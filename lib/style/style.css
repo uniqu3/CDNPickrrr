@@ -1,7 +1,7 @@
 #source pre {
 	background: #333;
 	color: #79aa1f;
-	padding: 10px 15px;;
+	padding: 10px 15px;
 	border-left: 10px solid #ddd;
 	border-radius: 6px;
 	margin-bottom: 20px;
@@ -9,6 +9,10 @@
 ul#resources {
 	margin: 15px 0 0 0;
 	padding: 0;
+	font-size: 11px;
+}
+#resources p {
+	font-size: 11px;
 }
 #resources li {
 	float: left;
@@ -19,14 +23,15 @@ ul#resources {
 	padding: 10px 10px 35px 10px;
 	list-style: none;
 	width: 273px;
-	height: 150px;
+	height: 170px;
 	position: relative;
 }
 #resources h3 {
 	margin: 0;
+	padding: 0;
 }
 #resources h3 a {
-	font-size: 20px;
+	font-size: 18px;
 	color: #333;
 	text-shadow: 1px 1px 0 #fff;
 	text-decoration: none;
@@ -38,8 +43,9 @@ ul#resources {
 	text-align: center;
 	font-size: 18px;
 	height: 20px;
-	line-height: 20px;
-	margin-top: 5px;
+	padding: 0;
+	margin: 0;
+	border: none;
 }
 #resources .url {
 	display: none;
